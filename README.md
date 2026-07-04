@@ -1,6 +1,6 @@
-# KlipperLH
+# ChemKlipper
 
-`KlipperLH` is an async Python control layer for a Klipper-based liquid handler. It provides:
+`ChemKlipper` is an async Python control layer for a Klipper-based liquid handler. It provides:
 
 - A reconnecting Moonraker WebSocket client
 - Motion primitives with short-window move coalescing

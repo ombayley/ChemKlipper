@@ -3,7 +3,7 @@ requires = ["setuptools>=69", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "KlipperLH"
+name = "ChemKlipper"
 version = "0.1.0"
 description = "Async Moonraker client and liquid-handling primitives for Klipper-based systems"
 readme = "README.md"
@@ -30,7 +30,7 @@ docs = [
 ]
 
 [project.urls]
-Repository = "https://github.com/ombayley/KlipperLH"
+Repository = "https://github.com/ombayley/ChemKlipper"
 
 [tool.setuptools]
 package-dir = {"" = "src"}

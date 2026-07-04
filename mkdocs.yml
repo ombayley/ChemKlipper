@@ -1,13 +1,13 @@
 # Project information
-site_name: KlipperLH
-site_url: https://ombayley.github.io/KlipperLH/
+site_name: ChemKlipper
+site_url: https://ombayley.github.io/ChemKlipper/
 site_author: Olly Bayley
 site_description: >-
   Custom built CoreXY liquid handling system based on the Klipper software stack used by open-source 3D printers
 
 # Repository
-repo_name: ombayley/KlipperLH
-repo_url: https://github.com/ombayley/KlipperLH
+repo_name: ombayley/ChemKlipper
+repo_url: https://github.com/ombayley/ChemKlipper
 
 # Copyright
 copyright: Copyright &copy; 2026 Olly Bayley
@@ -99,7 +99,7 @@ extra:
   generator: false
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/ombayley/KlipperLH
+      link: https://github.com/ombayley/ChemKlipper
 
 validation:
   nav:
