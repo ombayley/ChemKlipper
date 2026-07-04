@@ -23,8 +23,8 @@ from typing import Any
 import websockets
 from websockets.exceptions import ConnectionClosed
 
-from klipper_lh.config import MoonrakerConfig
-from klipper_lh.logging import get_logger
+from chem_klipper.config import MoonrakerConfig
+from chem_klipper.logging import get_logger
 
 # ──── Constants ──────────────────────────────────────────────────────────────────────────────────────
 JsonObject = dict[str, Any]

@@ -1,7 +1,7 @@
 import asyncio
 from pathlib import Path
-from klipper_lh.config import MoonrakerConfig
-from klipper_lh.moonraker import MoonrakerClient
+from chem_klipper.config import MoonrakerConfig
+from chem_klipper.moonraker import MoonrakerClient
 
 async def build():
     config = MoonrakerConfig.from_yaml(Path(r"/config/moonraker_ethernet.yaml"))

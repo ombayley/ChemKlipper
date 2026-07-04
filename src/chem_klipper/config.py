@@ -7,7 +7,7 @@ from pathlib import Path
 import yaml
 from pydantic import BaseModel, ConfigDict, Field, ValidationError, field_validator
 
-from klipper_lh.exceptions import ConfigurationError
+from chem_klipper.exceptions import ConfigurationError
 
 
 class MoonrakerConfig(BaseModel):

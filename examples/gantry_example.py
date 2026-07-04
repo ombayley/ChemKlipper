@@ -6,10 +6,10 @@ Description: **Add Desc**.
 """
 
 import asyncio
-from klipper_lh.config import MoonrakerConfig
-from klipper_lh.moonraker import MoonrakerClient
-from klipper_lh.devices.gantry import Gantry
-from klipper_lh.logging import get_logger
+from chem_klipper.config import MoonrakerConfig
+from chem_klipper.moonraker import MoonrakerClient
+from chem_klipper.devices.gantry import Gantry
+from chem_klipper.logging import get_logger
 
 log = get_logger("Gantry_Tester")
 

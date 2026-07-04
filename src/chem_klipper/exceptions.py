@@ -23,3 +23,6 @@ class MotionError(LHError):
 
 class PipetteError(LHError):
     """Raised when a pipette command is outside the configured range."""
+
+class PipetteNotFoundError(LHError):
+    """Raised when a Pipette object cannot be found."""

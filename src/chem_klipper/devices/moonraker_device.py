@@ -5,9 +5,9 @@ Author: O. Bayley
 Description: Core device class that provides connectivity to the Moonraker API.
 """
 from typing import Any
-from klipper_lh.logging import get_logger
-from klipper_lh.moonraker import MoonrakerClient
-from klipper_lh.exceptions import DeviceConnectionError
+from chem_klipper.logging import get_logger
+from chem_klipper.moonraker import MoonrakerClient
+from chem_klipper.exceptions import DeviceConnectionError
 
 # ──── Constants ──────────────────────────────────────────────────────────────────────────────────────
 QueryObjects = dict[str, Any]

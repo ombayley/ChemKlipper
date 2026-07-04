@@ -5,8 +5,8 @@ Author: O. Bayley
 Description: High-level gantry movement controls backed by Moonraker G-code requests.
 """
 from typing import Any
-from klipper_lh.moonraker import MoonrakerClient
-from klipper_lh.devices import MoonrakerDevice
+from chem_klipper.moonraker import MoonrakerClient
+from chem_klipper.devices import MoonrakerDevice
 
 # ──── Constants ──────────────────────────────────────────────────────────────────────────────────────
 MIN_STEPPER_CURRENT = 0.10

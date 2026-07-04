@@ -1,6 +1,6 @@
 import asyncio
 
-from klipper_lh.devices.gantry import Gantry
+from chem_klipper.devices.gantry import Gantry
 
 
 class FakeMoonrakerClient:

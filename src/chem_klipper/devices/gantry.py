@@ -11,9 +11,9 @@ import asyncio
 import math
 import time
 
-from klipper_lh.exceptions import MotionError
-from klipper_lh.moonraker import MoonrakerClient
-from klipper_lh.devices import MoonrakerDevice
+from chem_klipper.exceptions import MotionError
+from chem_klipper.moonraker import MoonrakerClient
+from chem_klipper.devices import MoonrakerDevice
 
 
 # ──── Constants ──────────────────────────────────────────────────────────────────────────────────────

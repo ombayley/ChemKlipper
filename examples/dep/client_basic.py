@@ -16,8 +16,8 @@ import asyncio
 import json
 import websockets
 from typing import Callable
-from klipper_lh.logging import get_logger
-from klipper_lh.config import MoonrakerConfig
+from chem_klipper.logging import get_logger
+from chem_klipper.config import MoonrakerConfig
 
 log = get_logger(name="MoonrakerClient")
 

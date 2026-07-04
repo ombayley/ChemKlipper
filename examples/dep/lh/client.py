@@ -15,7 +15,7 @@ from websockets.exceptions import ConnectionClosed
 from .config import MoonrakerConfig
 from .exceptions import MoonrakerError
 from .protocols import JSONValue, NotificationHandler, NotificationMessage
-from klipper_lh.logging import get_logger
+from chem_klipper.logging import get_logger
 
 LOGGER = get_logger(__name__)
 
